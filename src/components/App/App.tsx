@@ -16,8 +16,9 @@ export default observer(() => {
     <>
       <div className="App">
         <header className="App-header">
-          <h1>Counter, count = {count}</h1>
+          <h1>MobX Counter test</h1>
         </header>
+        <h2>Counter, count = {count}</h2>
         <Counter id={11} />
         <Counter id={12} />
       </div>
