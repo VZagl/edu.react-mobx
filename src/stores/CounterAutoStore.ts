@@ -3,7 +3,7 @@ import { makeAutoObservable } from "mobx";
 // type NumArray = [number, number] | number[];
 type NumArray = number[];
 
-class Store {
+export class StoreAuto {
   constructor() {
     makeAutoObservable(this);
   }
@@ -41,5 +41,5 @@ class Store {
   }
 }
 
-const store = new Store();
+const store = new StoreAuto();
 export default store;
