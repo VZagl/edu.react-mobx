@@ -1,3 +1,9 @@
+## Ссылки:
+
+- [Redux vs Mobx кого же выбрать для React-приложения в 2024 году?](https://habr.com/ru/articles/795901/)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
