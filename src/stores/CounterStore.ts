@@ -1,6 +1,6 @@
 import { makeObservable, observable, action } from "mobx";
 
-class CounterStore {
+export class T_CounterStore {
   constructor() {
     makeObservable(this, {
       count: observable,
@@ -20,5 +20,5 @@ class CounterStore {
   };
 }
 
-const store = new CounterStore();
+const store = new T_CounterStore();
 export default store;
