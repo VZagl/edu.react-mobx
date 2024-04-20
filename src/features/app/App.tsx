@@ -5,8 +5,8 @@ import counterStore from "../../stores/CounterStore";
 import counterAutoStore, {
   T_CounterAutoStore,
 } from "../../stores/CounterAutoStore";
-import Counter from "../Counter/Counter";
-import CounterAuto from "../CounterAuto/counterAuto";
+import Counter from "../../components/Counter/Counter";
+import CounterAuto from "../../components/CounterAuto/counterAuto";
 import "./App.css";
 
 export default observer(() => {
